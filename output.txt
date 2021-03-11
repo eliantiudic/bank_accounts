@@ -1,0 +1,251 @@
+Account          Balance
+
+ 1234            $6334.45
+ 
+2345            $9683.23
+ 
+3456            $899.54
+
+ 4567            $0.11 
+
+ 5678            $76.87 
+
+ 6789            $999.00 
+
+ 9012            $6432.00 
+
+ 9123            $754.00 
+ 
+ 9234            $2467.00 
+
+ 9345            $15000.00 
+
+
+Invalid entry! Try again
+
+
+Invalid entry! Try again
+
+
+Operation:Balance
+Account number: 3456
+Current balance: $899.54
+
+
+Operation:Balance
+Account number: 4545
+Error! Account doesn't exist
+
+
+Operation:Deposit
+Account number: 4567
+Amount to deposit: $199.96
+Current balance: $0.11
+New balance: $200.07 
+
+
+Operation:Deposit
+Account number: 5678
+Amount to deposit: $-865.0
+Current balance: $76.87
+Error! Can't deposit sums smaller than 0
+
+
+Operation:Deposit
+Account number: 4547
+Amount to deposit: $211.0
+Error! Account doesn't exist.
+
+
+Operation:Withdrawal
+Account number: 6789
+Amount to withdraw: $124.99
+Current balance: $999.0
+New balance: $874.01 
+
+
+Operation:Withdrawal
+Account number: 9012
+Amount to withdraw: $-345.0
+Current balance: $6432.0
+Error! Can't withdraw sums smaller than 0!
+
+
+Operation:Withdrawal
+Account number: 9123
+Amount to withdraw: $10000.0
+Current balance: $754.0
+Error! Insufficient funds!
+
+
+Operation:Withdrawal
+Account number: 7891
+Amount to withdraw: $345.0
+Error! Account doesn't exist.
+
+
+Operation: New Account
+Account created: 7891
+Balance: $0.0
+
+
+Operation: New Account
+Account created: 8910
+Balance: $0.0
+
+
+Operation: New Account
+Account created: 9000
+Balance: $0.0
+
+
+Operation: New Account
+Account to be created: 2345
+Error! Account already exists
+
+
+Operation: New Account
+Account to be created: 3456
+Error! Account already exists
+
+
+Operation:Deposit
+Account number: 7891
+Amount to deposit: $5678.93
+Current balance: $0.0
+New balance: $5678.93 
+
+
+Operation:Deposit
+Account number: 8910
+Amount to deposit: $-34.0
+Current balance: $0.0
+Error! Can't deposit sums smaller than 0
+
+
+Operation:Deposit
+Account number: 9000
+Amount to deposit: $1234.55
+Current balance: $0.0
+New balance: $1234.55 
+
+
+Operation:Deposit
+Account number: 8910
+Amount to deposit: $567.0
+Current balance: $0.0
+New balance: $567.00 
+
+
+Operation:Withdrawal
+Account number: 7891
+Amount to withdraw: $234.0
+Current balance: $5678.93
+New balance: $5444.93 
+
+
+Operation:Withdrawal
+Account number: 8910
+Amount to withdraw: $123.0
+Current balance: $567.0
+New balance: $444.00 
+
+
+Operation:Withdrawal
+Account number: 9000
+Amount to withdraw: $-2.0
+Current balance: $1234.55
+Error! Can't withdraw sums smaller than 0!
+
+
+Operation:Withdrawal
+Account number: 9000
+Amount to withdraw: $456.0
+Current balance: $1234.55
+New balance: $778.55 
+
+
+Operation:Withdrawal
+Account number: 7891
+Amount to withdraw: $6000.0
+Current balance: $5444.93
+Error! Insufficient funds!
+
+
+Operation:Balance
+Account number: 7891
+Current balance: $5444.93
+
+
+Operation:Balance
+Account number: 8910
+Current balance: $444.0
+
+
+Operation:Balance
+Account number: 9000
+Current balance: $778.55
+
+
+Operation: Delete account
+Account to be deleted: 1234
+Error! Balance greater than 0.
+
+
+Operation: Delete account
+Account to be deleted: 2345
+Error! Balance greater than 0.
+
+
+Operation:Withdrawal
+Account number: 1234
+Amount to withdraw: $6334.45
+Current balance: $6334.45
+New balance: $0.00 
+
+
+Operation:Withdrawal
+Account number: 2345
+Amount to withdraw: $9683.23
+Current balance: $9683.23
+New balance: $0.00 
+
+
+Operation: Delete account
+Account to be deleted: 1234
+Account deleted successfully!
+
+
+Operation: Delete account
+Account to be deleted: 2345
+Account deleted successfully!
+
+
+Program is terminating!
+
+
+Final database of accounts:
+
+Account          Balance
+
+ 3456            $899.54 
+
+ 4567            $200.07 
+
+ 5678            $76.87 
+ 
+ 6789            $874.01 
+ 
+ 9012            $6432.00 
+ 
+ 9123            $754.00 
+
+ 9234            $2467.00 
+
+ 9345            $15000.00 
+
+ 7891            $5444.93 
+
+ 8910            $444.00 
+
+ 9000            $778.55 
